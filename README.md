@@ -25,7 +25,11 @@ cd yourrepository
 ```bash
 go mod tidy
 ```
-4. Start the server:
+4. Load the environment variables:
+```bash
+source .env
+```
+5. Start the server:
 ```bash
 go run cmd/main.go
 ```
