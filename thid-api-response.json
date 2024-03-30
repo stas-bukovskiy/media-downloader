@@ -1,0 +1,106 @@
+{
+  "acodec": "opus",
+  "age_limit": 0,
+  "aspect_ratio": 1.78,
+  "audio_channels": 2,
+  "availability": "public",
+  "average_rating": null,
+  "categories": [
+    "Education"
+  ],
+  "channel": "Geekific",
+  "channel_follower_count": 26200,
+  "channel_id": "UCXRZyv0cNwba6f0xCREAD_Q",
+  "channel_url": "https://www.youtube.com/channel/UCXRZyv0cNwba6f0xCREAD_Q",
+  "chapters": [
+    {
+      "end_time": 7,
+      "start_time": 0,
+      "title": "Introduction"
+    }
+  ],
+  "comment_count": 29,
+  "description": "Support us on Patreon: https://www.patreon.com/Geekific \nGitHub Repository: https://github.com/geekific-official/geekific-youtube/\nStay updated on our videos by subscribing to the channel and hitting the like button! \n\nToday, we add the last missing design pattern to our Design Patterns in Java series: The Proxy Structural Design Pattern.\n\nTimestamps:\n00:00 Introduction\n00:07 What is the Proxy Pattern?\n01:30 Proxy Pattern Implementation\n03:38 The Proxy Pattern Class Diagram\n04:56 Recap\n05:41 Thanks for Watching!\n\nIf you found this video helpful, check other Geekific uploads:\n - Introduction to Design Patterns: https://youtu.be/mE3qTp1TEbg\n - UML Class and Object Diagrams: https://youtu.be/sN2_CoB_kbw\n - SOLID Principles and Best Practices: https://youtu.be/HoA6aZPR5K0\n - Object-Oriented Programming Fundamentals: https://youtu.be/Vfk6sExu8-4\n - Recursion Made Simple, Recursive Methods: https://youtu.be/r8KJ2AJWkHs\n - Heap Space vs. Stack Memory in Java: https://youtu.be/dH2LG3wxXbQ\n - New Features introduced in Java 17: https://youtu.be/6zmjg_ZEoH8\n\n#Geekific #DesignPatterns #ProxyPattern #StructuralPatterns",
+  "display_id": "TS5i-uPXLs8",
+  "duration": 348,
+  "duration_string": "5:48",
+  "dynamic_range": "SDR",
+  "epoch": 1711791360,
+  "ext": "webm",
+  "extractor": "youtube",
+  "extractor_key": "Youtube",
+  "filesize_approx": 18134484,
+  "format": "248 - 1920x1080 (1080p)+251 - audio only (medium)",
+  "format_id": "248+251",
+  "format_note": "1080p+medium",
+  "formats": [
+    {
+      "aspect_ratio": 1.78,
+      "ext": "mhtml",
+      "format": "sb2 - 48x27 (storyboard)",
+      "format_id": "sb2",
+      "format_note": "storyboard",
+      "fps": 0.28735632183908044,
+      "height": 27,
+      "protocol": "mhtml",
+      "resolution": "48x27",
+      "url": "https://i.ytimg.com/sb/TS5i-uPXLs8/storyboard3_L0/default.jpg?sqp=-oaymwENSDfyq4qpAwVwAcABBqLzl_8DBgjj_PiPBg==&sigh=rs$AOn4CLARmX6URMVzXM54LPHxN2oDfvyOqA",
+      "width": 48
+    }
+  ],
+  "resolution": "1920x1080",
+  "subtitles": {
+    "en": [
+      {
+        "ext": "json3",
+        "name": "English",
+        "url": "https://www.youtube.com/api/timedtext?v=TS5i-uPXLs8&ei=99wHZt70GqCni9oP_uOOsAs&caps=asr&opi=112496729&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1711816551&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=214C317374D6766800FE15A3B1CBEFC8D04B450B.AA5A110D3F6B35811C07950FD953CCD50F6E23D3&key=yt8&lang=en&fmt=json3"
+      }
+    ]
+  },
+  "tags": [
+    "geekific",
+    "programming",
+    "coding",
+    "computer science",
+    "design patterns",
+    "what are design patterns",
+    "creational patterns",
+    "structural patterns",
+    "design patterns explained",
+    "java tutorial",
+    "design patterns tutorial",
+    "proxy pattern",
+    "proxy pattern java",
+    "proxy design pattern",
+    "proxy pattern implementation",
+    "proxy pattern explained",
+    "proxy pattern tutorial",
+    "what is proxy pattern",
+    "proxy pattern class diagram",
+    "when to use proxy design pattern",
+    "proxy pattern in java",
+    "proxy design pattern java"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/TS5i-uPXLs8/maxresdefault.jpg",
+  "thumbnails": [
+    {
+      "id": "0",
+      "preference": -37,
+      "url": "https://i.ytimg.com/vi/TS5i-uPXLs8/3.jpg"
+    }
+  ],
+  "title": "The Proxy Pattern Explained and Implemented in Java | Structural Design Patterns | Geekific",
+  "upload_date": "20220205",
+  "uploader": "Geekific",
+  "uploader_id": "@geekific",
+  "uploader_url": "https://www.youtube.com/@geekific",
+  "vbr": 308.683,
+  "vcodec": "vp09.00.40.08",
+  "view_count": 27464,
+  "was_live": false,
+  "webpage_url": "https://www.youtube.com/watch?v=TS5i-uPXLs8",
+  "webpage_url_basename": "watch",
+  "webpage_url_domain": "youtube.com",
+  "width": 1920
+}
