@@ -37,6 +37,6 @@ The following diagram depicts the infrastructure of the application:
 ![uml_diagram.png](uml_diagram.png)
 
 ## Endpoints
-/meta-info?url=<video_url>: Returns the meta information of the video specified by <video_url>.
-/download-links?url=<video_url>: Returns the download links of the video specified by <video_url>.
+- /meta-info?url=<video_url>: Returns the meta information of the video specified by <video_url>.
+- /download-links?url=<video_url>: Returns the download links of the video specified by <video_url>.
 Replace <video_url> with the actual URL of the video you want to query.
