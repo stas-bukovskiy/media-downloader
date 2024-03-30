@@ -29,13 +29,15 @@ func NewVideoDownloaderProxy(realDownloader *downloader.VideoDownloader) *VideoD
 
 // Download wraps the real downloader's Download method and caches the responses
 func (p *VideoDownloaderProxy) Download(url string) (*downloader.VideoResponse, error) {
-	// check if the response is already cached
+	// create a mutex to synchronize the access to the cache
 	p.mu.Lock()
+	defer p.mu.Unlock()
+
+	// check if the response is already cached
 	if response, found := p.cache[url]; found {
 		log.Printf("Cache hit for URL: %s\n", url)
 		return response, nil
 	}
-	p.mu.Unlock()
 
 	log.Printf("Cache miss for URL: %s. Downloading...\n", url)
 	start := time.Now()
@@ -47,9 +49,7 @@ func (p *VideoDownloaderProxy) Download(url string) (*downloader.VideoResponse, 
 	}
 
 	// cache the response
-	p.mu.Lock()
 	p.cache[url] = response
-	p.mu.Unlock()
 
 	// log the time consumed for the download
 	elapsed := time.Since(start)
